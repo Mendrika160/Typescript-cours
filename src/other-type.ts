@@ -1,11 +1,11 @@
-// other types : any, void, null, undefined, never, object, symbol
+// other types : any, void, n
 let task: any;
 //  the any type is used to disable type checking
 
 let result: unknown;
 // similar to any, but more safe,
 
-let weigth: number | null | undefined;
+let weigth;
 
 // to avoid error types  when we don't know the type of a variable : typeof weigth === "<type>"
 
